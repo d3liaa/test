@@ -18,7 +18,7 @@ Open the Analytics for Mobility web page, at https://analytics.opendatahub.bz.it
 <summary>Webcomponents</summary>
 </details>
 
-We split this repo out into different sections, each one has a summary of what's inside to make it easy to browse :)
+#### We split this repo out into different sections, each one has a summary of what's inside to make it easy to browse :)
 
 | Section   |        |
 |----------|------------|
@@ -27,7 +27,7 @@ We split this repo out into different sections, each one has a summary of what's
 | Guidelines for the core team | Your first steps to being productive |
 | Webcomponents| All you need to know about webcomponents, from using one of ours to creating one|
 
-## API - Domain and Datasets
+### API - Domain and Datasets
 
 | Section   |        |
 |----------|------------|
