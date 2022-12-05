@@ -3,8 +3,8 @@
 The first thing to do is to go on the (databrowser)[insert link]
 (insert image homepage and specific interface)
 -> show edit interface
-![image](https://user-images.githubusercontent.com/101118017/205593258-9d809208-a930-416c-9324-632aef9a2de8.png)
-![image](https://user-images.githubusercontent.com/101118017/205593295-35839a0e-d1a0-4df6-b2b7-82dba051af5a.png)
+<!-- ![image](https://user-images.githubusercontent.com/101118017/205593258-9d809208-a930-416c-9324-632aef9a2de8.png)
+![image](https://user-images.githubusercontent.com/101118017/205593295-35839a0e-d1a0-4df6-b2b7-82dba051af5a.png) -->
 
 ### workflow
 ![image](https://user-images.githubusercontent.com/101118017/205593353-8ae09249-0fe3-45fa-a322-eb59a06cd788.png)
