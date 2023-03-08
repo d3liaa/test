@@ -14,11 +14,11 @@ Then to add a record you can click the button on the top left, or to edit an alr
 ### Creating or Editing a record
 After clicking on the add records button this page will open.
 ![SS_3_add_record_main_data_view](https://user-images.githubusercontent.com/101118017/223690202-b5ea8a97-2587-460a-bbbf-62b3a86aa7ba.png)
-There are multiple sections: Main Data, Event details, Images, Files, License.
-In the Main data you can insert: Title, Description, the organizer and other info through the toggles.
-In the Event deta
+There are multiple sections: Main Data, Event details, Images, Files, License.<br>
+In the Main data you can insert: Title, Description, the organizer, the active flags and other info through the toggles.<br>
+In the Event details you can insert: Web and video urls, dates, location, rooms and the filters.
 
-Some are mandatory.
+Some attributes are mandatory.
 
 #### Mandatory fields
 Each event must have a title, a short description and an image. If these minimum criteria are not met, it will not appear on the noi.bz.it site, nor on the NOI Community App.
@@ -36,9 +36,9 @@ The event manager decides which event is played on the website. Usually it's for
 are played out, however, is decided by the Community Manager. The criteria is the opportunity for community members to take part in the event.
 
 #### Additional fields
-**WEB PAGE** <br>
+**Web page** <br>
 If registration is required, then the corresponding link under "Web Page" must be used.<br>
-**FILTERS** <br>
+**Filters** <br>
 There are two filters: Technology Field and Tagging Field.
 - The corresponding **technology field** can be selected for Technology Field
 (Green, Food, Digital or Automotive/Automation). This filter function is based on the
@@ -46,12 +46,9 @@ App taken over and displayed on the website. If the event falls in none of the
 mentioned technology fields, this field remains empty.
 - The **tagging field** specifies the type/series of an event. For the site, a
 Tagging Field must be selected, but does not have to. The selected term will appear as
-supercategory displayed. On the app, on the other hand, there must always be a difference between "Public" and
-"NOI Community" must be selected, because these two filter functions are
-taken directly and are highly relevant to the community.
+supercategory displayed. On the app, on the other hand, there must always be a difference between "Public" and "NOI Community" must be selected, because these two filter functions are taken directly and are highly relevant to the community.
 
 ![image](https://user-images.githubusercontent.com/101118017/205593964-97b190ae-0d07-4017-9831-d7f9757fa2fc.png)
-
 
 ### Rooms and time management
 To add a room you should firsatly navigate to the event detail section, and on the click on the last button and the table with the rooms will show.
@@ -65,7 +62,7 @@ Finally the view for adding the info for the room will open.
 
 > Particular attention is paid when entering the time period of an event.
 
-#### one day events
+#### One day events
 
 Events that extend over a maximum of one day are given a start and end date
 entered and thus visualized on all channels. If the total time of an event
@@ -87,7 +84,7 @@ automatically set to 10:00.
 
 WHERE SHOULD YOU PUT THE COMMENT 'X' AND SET THE PARAMETER TO TRUE
 
-#### multiple day events
+#### Multiple day events
 
 Events that extend over several days can be entered over several days
 be, e.g. from 1.11.-3.11. from 9.00 a.m. to 4.00 p.m. In the details, however, a
@@ -102,14 +99,3 @@ If there is more than one day, only the date from will appear in the event tile 
 to are displayed, in the detailed view, however, the individual days are included
 respective start and end time (the times of the rooms are displayed here
 taken, excluding those with comment "x", just like on today.noi.bz.it).
-
-(insert image of example)
-
-### Technical point of view
-
-THE ENDPOINT
-THE CREATION OF AN EVENT 
-THE MANAGEMENT / EDIT
-ROOM AND TIME MANAGEMENT
-- PARAMAETER
-- COMMENT X
