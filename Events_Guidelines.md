@@ -2,7 +2,7 @@
 ## NOIEvents in the Open Data Hub
 The first thing to do is to go on the [databrowser's NOIEvents page](https://databrowser.opendatahub.testingmachine.eu/dataset/table/tourism/v1/EventShort)
 
-This is the page for the NOI Events.To be able to edit events and add records you will have to login first.
+This is the page for the NOI Events. To be able to edit events and add records you will have to login first.
 ![SS_1_Login ](https://user-images.githubusercontent.com/101118017/223667128-db4e61f1-0828-4130-abc3-80460b87e12f.png)
 
 Then to add a record you can click the button on the top left, or to edit an already existing record you can click on the button with the pen.
@@ -51,13 +51,13 @@ supercategory displayed. On the app, on the other hand, there must always be a d
 ![image](https://user-images.githubusercontent.com/101118017/205593964-97b190ae-0d07-4017-9831-d7f9757fa2fc.png)
 
 ### Rooms and time management
-To add a room you should firsatly navigate to the event detail section, and on the click on the last button and the table with the rooms will show.
+To add a room you should firstly navigate to the event detail section, and then click on the last button and the table with the rooms will show.
 ![SS_4_Room_Mangement](https://user-images.githubusercontent.com/101118017/223693449-d92b7b73-8751-45d5-a523-6e2eb035be8c.png)
 
-After to actually add information and rooms you will have to click on the button wth the pen.
+After, to actually add information and rooms you will have to click on the button with the pen.
 ![SS_5](https://user-images.githubusercontent.com/101118017/223693744-0deda6de-10a6-486e-9079-7fdf8d8fadfa.png)
 
-Finally the view for adding the info for the room will open.
+Finally, the view for adding the info for the room will open.
 ![SS_6](https://user-images.githubusercontent.com/101118017/223694329-2c024047-f1d5-49b4-a891-a066b2cb018e.png)
 
 > Particular attention is paid when entering the time period of an event.
