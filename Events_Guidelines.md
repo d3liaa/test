@@ -64,35 +64,14 @@ Finally, the view for adding the info for the room will open.
 
 #### One day events
 
-Events that extend over a maximum of one day are given a start and end date
-entered and thus visualized on all channels. If the total time of an event
-incl. construction and dismantling work differs from the official times of the event, e.g.
-starts an hour earlier and ends half an hour later, then you have to make for it
-a separate room can be booked with the corresponding time and a
-Comments "x". Comment "x" means that the room is booked internally in the system,
-but does not appear as booked on the channels. This is done with the
-Optimizeddates parameter. If this parameter is set to "optimizedates=true"
-passed, additional checks are made by the endpoint: All
-Room bookings with comment "x" are filtered out and it is filtered out again
-checks whether the start and end date of the event match the start and end date of the
-rooms match. If there is no match, the time is taken from the system and
-adjusted automatically. <br>
-Here is an example: An event has the start date on November the 1st at 9:00 a.m., because the hall has to be made available beforehand. The first room (without
-Comment "x") is only booked from 10:00 a.m., which means that the event
-officially begins at 10:00 a.m. The start time is set with the "optimizedates" parameter,
-automatically set to 10:00.
+Events that extend over a maximum of one day are entered with start and end dates and thus visualized on all channels. If the total time of an event, including set-up and dismantling work, differs from the official times of the event, e.g. starts an hour earlier and ends half an hour later, then a separate room must be booked for this with the corresponding time and a comment "x". Comment "x" means that the room is booked internally in the system, but is not displayed as booked on the channels.
 
 #### Multiple day events
 
-Events that extend over several days can be entered over several days, e.g. from 1.11.-3.11. from 9.00 a.m. to 4.00 p.m. In the details, however, a
-separate room can be created for each day, e.g. Day 1 – room booking 1.11. from
-9:00 a.m. - 5:00 p.m.; Day 2 – room booking 2.11. from 9.00 a.m. to 5.00 p.m.; Day 3 – Room booking
-3.11. from 10.00 a.m. to 4.00 p.m. This guarantees that the participants have the exact times
-find for each event day. 
-
-The channel today.noi.bz.it shows the events
-room-based, website and app on the other hand event-based. If an event over
-If there is more than one day, only the date from will appear in the event tile on the website and app
-to are displayed, in the detailed view, however, the individual days are included
-respective start and end time (the times of the rooms are displayed here
-taken, excluding those with comment "x", just like on today.noi.bz.it).
+Events that extend over several days can be entered for several days, e.g. from 1.11.-3.11. from 9.00-16.00 hrs. In the details, however, a separate room must then be created for each day.<br>
+For example:<br>
+Day 1 - room booking 1.11. from 9.00-17.00; <br>
+Day 2 - room booking 2.11. from 9.00-17.00; <br>
+Day 3 - room booking 3.11. from 10.00-16.00. <br>
+This guarantees that participants will find the exact times for each day of the event. <br>
+The today.noi.bz.it channel displays events based on rooms, while the website and app display events based on events. If an event takes place over several days, only the date from to is displayed in the event tile on the website and app, while the detailed view lists the individual days including the respective start and end times (here, the times of the rooms are used for display, excluding those with comment "x", just as on today.noi.bz.it).
