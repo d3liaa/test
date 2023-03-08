@@ -82,8 +82,6 @@ Comment "x") is only booked from 10:00 a.m., which means that the event
 officially begins at 10:00 a.m. The start time is set with the "optimizedates" parameter
 automatically set to 10:00.
 
-WHERE SHOULD YOU PUT THE COMMENT 'X' AND SET THE PARAMETER TO TRUE
-
 #### Multiple day events
 
 Events that extend over several days can be entered over several days
