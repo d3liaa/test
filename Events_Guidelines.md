@@ -70,23 +70,22 @@ incl. construction and dismantling work differs from the official times of the e
 starts an hour earlier and ends half an hour later, then you have to make for it
 a separate room can be booked with the corresponding time and a
 Comments "x". Comment "x" means that the room is booked internally in the system,
-but does not appear as booked on the channels. makes this possible
+but does not appear as booked on the channels. This is done with the
 Optimizeddates parameter. If this parameter is set to "optimizedates=true"
 passed, additional checks are made by the endpoint: All
 Room bookings with comment "x" are filtered out and it is filtered out again
 checks whether the start and end date of the event match the start and end date of the
-rooms match. If there is no match, the time is taken from the system
+rooms match. If there is no match, the time is taken from the system and
 adjusted automatically. <br>
-Here is an example: An event has the start date of November 1st. at 9:00 a.m., because the hall has to be made available beforehand. The first room (without
+Here is an example: An event has the start date on November the 1st at 9:00 a.m., because the hall has to be made available beforehand. The first room (without
 Comment "x") is only booked from 10:00 a.m., which means that the event
-officially begins at 10:00 a.m. The start time is set with the "optimizedates" parameter
+officially begins at 10:00 a.m. The start time is set with the "optimizedates" parameter,
 automatically set to 10:00.
 
 #### Multiple day events
 
-Events that extend over several days can be entered over several days
-be, e.g. from 1.11.-3.11. from 9.00 a.m. to 4.00 p.m. In the details, however, a
-separate room can be created for each day, bswp. Day 1 – room booking 1.11. from
+Events that extend over several days can be entered over several days, e.g. from 1.11.-3.11. from 9.00 a.m. to 4.00 p.m. In the details, however, a
+separate room can be created for each day, e.g. Day 1 – room booking 1.11. from
 9:00 a.m. - 5:00 p.m.; Day 2 – room booking 2.11. from 9.00 a.m. to 5.00 p.m.; Day 3 – Room booking
 3.11. from 10.00 a.m. to 4.00 p.m. This guarantees that the participants have the exact times
 find for each event day. 
